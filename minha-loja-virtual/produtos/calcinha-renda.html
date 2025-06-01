@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calcinha Renda Sensual - Minha Loja</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="../imagens/logo.png" alt="Logo da Marca" width="100" />
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../categorias/lingerie.html">Lingerie</a>
+            <a href="../categorias/moda-feminina.html">Moda Feminina</a>
+            <a href="../carrinho.html" class="cart-icon">
+                <span>🛒</span>
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Calcinha Renda Sensual</h1>
+        <img src="../imagens/produto2.jpg" alt="Calcinha Renda Sensual" style="max-width: 100%; border-radius: 6px;" />
+        <p><strong>Preço:</strong> R$ 49,90</p>
+        <p><strong>Tecido:</strong> Renda premium com elastano</p>
+        <p><strong>Descrição:</strong> Calcinha delicada e confortável, ideal para uso diário.</p>
+        <button onclick="addToCart('Calcinha Renda Sensual', 49.90)">Adicionar ao Carrinho</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja Virtual</p>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        window.onload = function() {
+            updateCart();
+        };
+    </script>
+
+</body>
+
+</html>
